@@ -115,7 +115,7 @@ if st.button("Run Simulation"):
     st.subheader("AI Analysis")
 
     try:
-        client = OpenAI(api_key="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")
+        client = OpenAI(api_key="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")
 
         prompt = f"""
         Explain these blackjack bankroll simulation results in simple college-student language.
